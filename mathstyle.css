@@ -1,0 +1,126 @@
+.blocks > .block.question {
+  background: #fff;
+}
+.blocks > .block.question .number_and_part {
+  float: left;
+  padding-right: 5px;
+  line-height: 35px;
+}
+.blocks > .block.question .marks_available {
+  float: right;
+  margin-right: 3em;
+}
+.blocks > .block.question .question {
+  margin-left: 2em;
+}
+.blocks > .block.question .answer_space {
+  border: 1px solid black;
+  padding: 5px 20px;
+  margin-left: 2em;
+}
+.blocks > .block.question .markscheme {
+  background-color: #eafff1;
+  margin-left: 2em;
+  padding: 1em;
+}
+.blocks > .block.question .examiners_report {
+  background-color: #eff8ff;
+  margin-left: 2em;
+  padding: 1em;
+}
+.blocks > .block.question .specification {
+  margin-left: 2em;
+}
+.blocks > .block.text_content {
+  background: #fff;
+}
+.blocks > .block > .inner {
+  margin: 20px;
+}
+.blocks > .block > .inner .edit-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.blocks > .block:hover {
+  border: 1px dashed #e8e8e8;
+}
+.blocks > .block:hover .inner .edit-controls {
+  visibility: visible;
+}
+#question_associator.js-drag-active {
+  background-color: orange;
+}
+#question_associator.js-hover.js-drag-active {
+  background-color: #59b159;
+}
+#question_associator input.btn {
+  font-size: 12px;
+}
+.question_finder_filter {
+  padding: 5px 10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.question_finder_filter .control-group label.control-label {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.question_finder_filter .control-group .controls input,
+.question_finder_filter .control-group .controls select {
+  margin-bottom: 2px;
+  font-size: 12px;
+}
+.question_finder_filter .form-actions {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.question_finder_filter .btn-small {
+  font-size: 12px;
+}
+.question_finder_filter #results_count {
+  font-size: 12px;
+}
+
+.question_group_modal.modal {
+  margin: 0 0 0 -490px;
+  top: 140px;
+  width: 980px;
+}
+.question_group_modal.modal .modal-body {
+  max-height: 70vh;
+}
+.question_group_modal.modal .modal-body .marks,
+.teacher.questions-show .question .marks {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  text-align: right;
+  height: 35px;
+  line-height: 35px;
+}
+.question,
+.specification {
+  position: relative;
+}
+.question p:first-child,
+.specification p:first-child {
+  min-height: 35px;
+  line-height: 35px !important;
+  font-size: inherit !important;
+}
+.question .question_part_label,
+.specification .question_part_label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 35px;
+  line-height: 35px;
+}
+.question .marks,
+.specification .marks {
+  color: #aaa;
+}
+
+
